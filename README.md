@@ -70,6 +70,12 @@ This approach helps create a more controlled LLM application.
                     │ Safe Response   │
                     └────────┬────────┘
                              │
+                             ▼
+                    ┌─────────────────┐
+                    │      User       │
+                    └─────────────────┘
+
+### 🔄 Application Flow
 
 User Input
     ↓
@@ -84,9 +90,3 @@ Generated Response
 Output Guardrails
     ↓
 Final Response
-                             ▼
-                    ┌─────────────────┐
-                    │      User       │
-                    └─────────────────┘
-
-
