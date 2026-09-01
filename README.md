@@ -70,6 +70,20 @@ This approach helps create a more controlled LLM application.
                     │ Safe Response   │
                     └────────┬────────┘
                              │
+
+User Input
+    ↓
+Input Validation
+    ↓
+Input Guardrails
+    ↓
+Gemini API
+    ↓
+Generated Response
+    ↓
+Output Guardrails
+    ↓
+Final Response
                              ▼
                     ┌─────────────────┐
                     │      User       │
