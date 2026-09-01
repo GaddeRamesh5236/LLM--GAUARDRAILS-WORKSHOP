@@ -77,8 +77,7 @@ This approach helps create a more controlled LLM application.
 
 
 
-### 🔄 Application Flow
-
+### 📘 Application Flow
 
 User Input
     ↓
